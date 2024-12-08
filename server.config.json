@@ -1,0 +1,8 @@
+{
+    "relayHost": "127.0.0.1",
+    "relayPort": 5050,
+    "authorization": "p@ssw0rd",
+    "serverHost": "server",
+    "serverPort": 3000,
+    "reconnectTimeout": 5000
+}
