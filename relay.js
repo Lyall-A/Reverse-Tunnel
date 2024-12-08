@@ -15,7 +15,7 @@ relayServer.on("connection", socket => {
     const address = socket.remoteAddress?.split("::ffff:")[1];
 
     if (server) return socket.destroy();
-    if (address !== serverHost) return socket.destroy();
+    if (serverHost && address !== serverHost) return socket.destroy();
 
     let heartbeatTimeout;
     let pingDate = null;

@@ -1,8 +1,8 @@
 {
     "serverHost": "127.0.0.1",
     "authorization": "p@ssw0rd",
-    "heartbeatInterval": 30000,
-    "heartbeatDifference": 5000,
+    "heartbeatInterval": 5000,
+    "heartbeatDifference": 2000,
     "relayPort": 5050,
     "forwardPort": 5051
 }
